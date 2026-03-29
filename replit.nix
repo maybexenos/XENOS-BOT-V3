@@ -1,5 +1,5 @@
 {pkgs}: {
-  deps = [
+  deps = [ 
     pkgs.python3
     pkgs.pkg-config
     pkgs.librsvg
