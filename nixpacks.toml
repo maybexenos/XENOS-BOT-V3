@@ -1,14 +1,15 @@
 [phases.setup]
-nixPkgs = [
-  "util-linux",
-  "cairo",
-  "pango",
-  "libjpeg",
-  "giflib",
-  "librsvg",
+aptPkgs = [
+  "uuid-dev",
+  "libcairo2-dev",
+  "libpango1.0-dev",
+  "libjpeg-dev",
+  "libgif-dev",
+  "librsvg2-dev",
   "pkg-config",
   "python3",
-  "nodePackages.node-gyp"
+  "python3-pip",
+  "build-essential"
 ]
 
 [phases.install]
